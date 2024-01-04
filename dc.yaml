@@ -1,0 +1,13 @@
+name: dc
+display_name: SEGA Dreamcast
+format: file-parent
+exec: /usr/bin/flatpak run org.flycast.Flycast
+ini: ~/.mame/mame.ini
+rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: system-data-dir
+working_dir: system-working-dir
+extension: chd
+extensions: chd
+mister_core: NONE
+cmd: GAME_EXEC "ROM_PATH"

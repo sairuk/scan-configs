@@ -1,0 +1,13 @@
+name: wii
+display_name: Nintendo Wii
+format: generic
+exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
+ini:
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+art_dir: 
+data_dir:
+working_dir: system-working-dir
+extensions: iso, wbfs
+mister_core: NONE
+extension: iso
+cmd: GAME_EXEC -b -e "ROM_PATH"

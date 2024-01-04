@@ -1,0 +1,13 @@
+name: pico8
+display_name: PICO-8
+format: pico8
+exec: /usr/bin/games/pico8
+ini: 
+rom_dir: /mnt/roms/Fantasy Console/PICO-8 Carts
+art_dir: /mnt/roms/Fantasy Console/PICO-8 Screenshots 
+data_dir: /mnt/roms/Fantasy Console/PICO-8 Metadata
+working_dir: system-working-dir
+extensions: zip
+mister_core: NONE
+extension: zip
+cmd: GAME_EXEC ROM_NAME

@@ -1,0 +1,14 @@
+---
+name: ps2
+display_name: Sony Playstation 2
+format: file
+exec: /usr/local/bin/pcsx2
+ini: 
+rom_dir: /var/lib/freestation/games/ps2/dvd
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: system-data-dir
+working_dir: system-working-dir
+extension: iso
+extensions: iso
+mister_core: NONE
+cmd: GAME_EXEC "ROM_PATH"

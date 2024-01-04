@@ -1,0 +1,13 @@
+name: n64
+display_name: Nintendo 64
+format: mamesl
+exec: /usr/bin/flatpak run io.github.simple64.simple64
+ini: ~/.mame/mame.ini
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: MAME_BASE_DIR/hash
+working_dir: system-working-dir
+extensions: z64
+mister_core: N64
+extension: z64
+cmd: GAME_EXEC ROM_PATH

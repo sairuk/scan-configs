@@ -1,0 +1,13 @@
+name: nsw
+display_name: Nintendo Switch
+format: generic
+exec: /usr/bin/flatpak run org.ryujinx.Ryujinx
+ini:
+rom_dir: /var/lib/freestation/games/nsw/NSP/
+art_dir: 
+data_dir:
+working_dir: system-working-dir
+extensions: nsp
+mister_core: NONE
+extension: nsp
+cmd: GAME_EXEC SYSTEM_NAME -cart "ROM_PATH"

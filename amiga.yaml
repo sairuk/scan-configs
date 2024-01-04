@@ -1,0 +1,13 @@
+name: amiga
+display_name: Commodore Amiga
+format: file-parent
+exec: /usr/local/bin/fs-uae-50hz.sh
+ini: ~/.mame/mame.ini
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME/floppy
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: system-data-dir
+working_dir: system-working-dir
+extension: ipf
+extensions: adf, ipf
+mister_core: NONE
+cmd: GAME_EXEC --amiga-model=A500 --floppy-drive-0=ROM_PATH --fullscreen

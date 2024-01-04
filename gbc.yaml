@@ -1,0 +1,13 @@
+name: gbc
+display_name: Nintendo Game Boy Color
+format: mamesl
+exec: mame
+ini: ~/.mame/mame.ini
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: MAME_BASE_DIR/hash
+working_dir: system-working-dir
+extensions: zip
+mister_core: GBC
+extension: zip
+cmd: GAME_EXEC SYSTEM_NAME -cart ROM_NAME
