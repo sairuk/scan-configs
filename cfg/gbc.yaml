@@ -1,4 +1,4 @@
-name: gbc
+name: gbcolor
 display_name: Nintendo Game Boy Color
 format: mamesl
 exec: mame
