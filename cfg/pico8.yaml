@@ -10,4 +10,4 @@ working_dir: system-working-dir
 extensions: zip
 mister_core: NONE
 extension: zip
-cmd: GAME_EXEC ROM_NAME
+cmd: GAME_EXEC "ROM_PATH"
