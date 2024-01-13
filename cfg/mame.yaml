@@ -2,6 +2,7 @@
 name: MAME
 display_name: MAME
 format: mame
+mode: file
 exec: mame
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME

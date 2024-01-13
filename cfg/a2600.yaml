@@ -1,6 +1,7 @@
 name: a2600
 display_name: Atari 2600
 format: mamesl
+mode: file
 exec: mame
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME

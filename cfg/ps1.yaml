@@ -1,6 +1,7 @@
 name: psx
 display_name: Sony PlayStation
-format: file-parent
+format: mamesl
+mode: file-parent
 exec: /usr/bin/flatpak run org.duckstation.DuckStation -batch -fullscreen --
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME

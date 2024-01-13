@@ -1,6 +1,7 @@
 name: wii
 display_name: Nintendo Wii
 format: generic
+mode: file-parent
 exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
 ini:
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME

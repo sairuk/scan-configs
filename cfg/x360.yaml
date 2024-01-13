@@ -1,6 +1,7 @@
 name: x360
 display_name: Microsoft XBOX 360
 format: generic
+mode: file
 exec: xenia
 ini: ~/.mame/mame.ini
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME

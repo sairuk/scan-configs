@@ -1,6 +1,7 @@
 name: ngc
 display_name: Nintendo GameCube
 format: generic
+mode: file-parent
 exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
 ini:
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME

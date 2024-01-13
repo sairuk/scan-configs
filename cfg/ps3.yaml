@@ -1,7 +1,8 @@
 ---
 name: ps3
-display_name: Sony Playstation 3
-format: file
+display_name: Sony PlayStation 3
+format: generic
+mode: file
 exec: /usr/local/bin/rpcs3_loopmount
 ini: 
 rom_dir: /var/lib/freestation/games/ps3

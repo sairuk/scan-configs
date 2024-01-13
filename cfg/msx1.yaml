@@ -1,6 +1,7 @@
 name: msx
 display_name: Microsoft MSX1
 format: mamesl
+mode: file
 exec: mame
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME

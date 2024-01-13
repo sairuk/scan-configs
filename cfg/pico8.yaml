@@ -1,6 +1,7 @@
 name: pico8
 display_name: PICO-8
 format: pico8
+mode: file
 exec: /usr/local/bin/pico8-launcher
 ini: 
 rom_dir: /mnt/roms/Fantasy Console/PICO-8 Carts

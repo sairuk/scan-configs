@@ -1,6 +1,7 @@
 name: xbox
 display_name: Microsoft XBOX
 format: generic
+mode: file
 exec: /usr/bin/flatpak run app.xemu.xemu
 ini:
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME

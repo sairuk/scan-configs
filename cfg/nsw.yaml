@@ -1,6 +1,7 @@
 name: nsw
 display_name: Nintendo Switch
 format: generic
+mode: file
 exec: /usr/bin/flatpak run org.ryujinx.Ryujinx
 ini:
 rom_dir: /var/lib/freestation/games/nsw/NSP/

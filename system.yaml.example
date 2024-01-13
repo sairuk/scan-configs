@@ -1,6 +1,7 @@
 name: system-name
 display_name: system-display-name
 format: format
+mode: mode
 exec: path-to-application
 ini: path-to-ini
 rom_dir: %MAME_BASE_DIR_SOFT_ROMS%/%SYSTEM_NAME%

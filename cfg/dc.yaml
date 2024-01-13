@@ -1,6 +1,7 @@
 name: dc
 display_name: SEGA Dreamcast
-format: file-parent
+format: mamesl
+mode: file-parent
 exec: /usr/bin/flatpak run org.flycast.Flycast
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME

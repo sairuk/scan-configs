@@ -1,6 +1,7 @@
 name: amiga
 display_name: Commodore Amiga
-format: file-parent
+format: generic
+mode: file-parent
 exec: /usr/local/bin/fs-uae-50hz.sh
 ini: ~/.mame/mame.ini
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME/floppy

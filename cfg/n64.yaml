@@ -1,6 +1,7 @@
 name: n64
 display_name: Nintendo 64
 format: mamesl
+mode: file
 exec: /usr/bin/flatpak run io.github.simple64.simple64
 ini: ~/.mame/mame.ini
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME

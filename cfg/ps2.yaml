@@ -1,7 +1,8 @@
 ---
 name: ps2
-display_name: Sony Playstation 2
-format: file
+display_name: Sony PlayStation 2
+format: generic
+mode: file
 exec: /usr/local/bin/pcsx2
 ini: 
 rom_dir: /var/lib/freestation/games/ps2/dvd

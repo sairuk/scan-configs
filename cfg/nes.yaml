@@ -1,6 +1,7 @@
 name: nes
 display_name: Nintendo Entertainment System
 format: mamesl
+mode: file
 exec: mame
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
