@@ -1,13 +1,13 @@
-name: 32x
-display_name: Sega 32x
+name: segacd
+display_name: SEGA CD
 format: mamesl
 exec: mame
 ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: MAME_BASE_DIR/hash
 working_dir: system-working-dir
 extensions: zip
-mister_core: 32x
+mister_core: MegaCD
 extension: zip
-cmd: GAME_EXEC SYSTEM_NAME -cart ROM_NAME
+cmd: GAME_EXEC SYSTEM_NAME -cdrom ROM_NAME

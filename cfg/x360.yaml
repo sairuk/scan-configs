@@ -1,0 +1,13 @@
+name: x360
+display_name: Microsoft XBOX 360
+format: generic
+exec: xenia
+ini: ~/.mame/mame.ini
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
+data_dir: MAME_BASE_DIR/hash
+working_dir: system-working-dir
+extensions: zip
+mister_core: ''
+extension: zip
+cmd: GAME_EXEC ROM_PATH

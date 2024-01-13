@@ -1,5 +1,5 @@
-name: 32x
-display_name: Sega 32x
+name: msx
+display_name: Microsoft MSX1
 format: mamesl
 exec: mame
 ini: ~/.mame/mame.ini
@@ -8,6 +8,6 @@ art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: MAME_BASE_DIR/hash
 working_dir: system-working-dir
 extensions: zip
-mister_core: 32x
+mister_core: MSX1
 extension: zip
 cmd: GAME_EXEC SYSTEM_NAME -cart ROM_NAME
