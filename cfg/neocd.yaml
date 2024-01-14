@@ -1,14 +1,14 @@
 name: neocd
 display_name: SNK NEO-GEO CD
 format: mamesl
-mode: file
+mode: dir
 exec: mame
 ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: MAME_BASE_DIR/hash
 working_dir: system-working-dir
 extensions: zip
 mister_core:
 extension: zip
-cmd: GAME_EXEC SYSTEM_NAME -cart ROM_BASENAME
+cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
