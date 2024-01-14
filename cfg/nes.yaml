@@ -11,4 +11,4 @@ working_dir: system-working-dir
 extensions: zip
 mister_core: NES
 extension: zip
-cmd: GAME_EXEC nes -cart ROM_NAME
+cmd: GAME_EXEC SYSTEM_NAME -cart ROM_BASENAME

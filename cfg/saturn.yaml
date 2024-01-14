@@ -11,4 +11,4 @@ working_dir: system-working-dir
 extensions: zip
 mister_core: SAT
 extension: zip
-cmd: GAME_EXEC SYSTEM_NAME -cdrom ROM_NAME
+cmd: GAME_EXEC SYSTEM_NAME -cdrom ROM_BASENAME
