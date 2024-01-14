@@ -7,6 +7,7 @@ ini:
 rom_dir: /mnt/roms/Fantasy Console/PICO-8 Carts
 art_dir: /mnt/roms/Fantasy Console/PICO-8 Screenshots 
 data_dir: /mnt/roms/Fantasy Console/PICO-8 Metadata
+soft_lists:
 working_dir: system-working-dir
 extensions: zip
 mister_core: NONE

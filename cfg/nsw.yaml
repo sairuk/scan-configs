@@ -7,6 +7,7 @@ ini:
 rom_dir: /var/lib/freestation/games/nsw/NSP/
 art_dir: 
 data_dir:
+soft_lists:
 working_dir: system-working-dir
 extensions: nsp
 mister_core: NONE

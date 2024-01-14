@@ -8,6 +8,7 @@ rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: MAME_BASE_DIR/hash
 working_dir: system-working-dir
+soft_lists:
 extensions: zip
 mister_core: MSX1
 extension: zip

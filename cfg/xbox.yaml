@@ -7,6 +7,7 @@ ini:
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 art_dir: 
 data_dir:
+soft_lists:
 working_dir: system-working-dir
 extensions: iso
 mister_core: NONE
