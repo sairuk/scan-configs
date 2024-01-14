@@ -4,7 +4,8 @@ format: mamesl
 mode: file
 exec: mame
 ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+rom_dir: 
+  - MAME_BASE_DIR_SOFT_ROMS/c64_flop_orig
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: MAME_BASE_DIR/hash
 soft_lists:
