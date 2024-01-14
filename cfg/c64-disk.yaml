@@ -11,4 +11,4 @@ working_dir: system-working-dir
 extensions: zip
 mister_core:
 extension: zip
-cmd: GAME_EXEC c64p -joy1 joy -joy2 joy -flop ROM_BASENAME -autoboot_script /var/lib/freestation/config/mame/autoboots/c64_diskloader.lua -autoboot_delay 2
+cmd: GAME_EXEC c64p -joy1 joy -joy2 joy -autoboot_script /var/lib/freestation/config/mame/autoboots/c64_diskloader.lua -autoboot_delay 2 ROM_BASENAME

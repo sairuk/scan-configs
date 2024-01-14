@@ -11,4 +11,4 @@ working_dir: system-working-dir
 extensions: zip
 mister_core: SMS
 extension: zip
-cmd: GAME_EXEC sms -cart ROM_BASENAME
+cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
