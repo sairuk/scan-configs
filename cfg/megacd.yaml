@@ -1,7 +1,7 @@
 name: megacd
 display_name: SEGA Mega CD
 format: mamesl
-mode: file-parent
+mode: dir
 exec: mame
 ini: ~/.mame/mame.ini
 rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME

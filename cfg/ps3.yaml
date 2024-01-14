@@ -5,7 +5,7 @@ format: generic
 mode: file
 exec: /usr/local/bin/rpcs3_loopmount
 ini: 
-rom_dir: /var/lib/freestation/games/ps3
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
 data_dir: system-data-dir
 working_dir: system-working-dir
