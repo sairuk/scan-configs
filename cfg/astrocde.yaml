@@ -1,5 +1,5 @@
-name: lynx
-display_name: Atari Lynx
+name: astrocde
+display_name: Astrocade
 format: mamesl
 mode: file
 exec: mame
@@ -10,6 +10,6 @@ data_dir: MAME_BASE_DIR/hash
 soft_lists:
 working_dir: system-working-dir
 extensions: zip
-mister_core: AtariLynx
+mister_core: Astrocade
 extension: zip
-cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
+cmd: GAME_EXEC SYSTEM_NAME -cart ROM_BASENAME
