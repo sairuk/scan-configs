@@ -10,6 +10,6 @@ data_dir: MAME_BASE_DIR/hash
 soft_lists:
 working_dir: system-working-dir
 extensions: zip
-mister_core: 32x
+mister_core: S32X
 extension: zip
 cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
