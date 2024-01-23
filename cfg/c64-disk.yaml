@@ -10,6 +10,6 @@ data_dir: MAME_BASE_DIR/hash
 soft_lists:
 working_dir: system-working-dir
 extensions: zip
-mister_core:
+mister_core: C64
 extension: zip
 cmd: GAME_EXEC c64p -joy1 joy -joy2 joy -autoboot_script /var/lib/freestation/config/mame/autoboots/c64_diskloader.lua -autoboot_delay 2 -flop ROM_BASENAME
