@@ -11,5 +11,5 @@ soft_lists:
 working_dir: system-working-dir
 extension: ipf
 extensions: adf, ipf
-mister_core: NONE
+mister_core: Amiga
 cmd: GAME_EXEC --amiga-model=A500 --floppy-drive-0=ROM_PATH --fullscreen
