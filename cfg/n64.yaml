@@ -6,7 +6,7 @@ exec: /usr/bin/flatpak run io.github.simple64.simple64
 ini: ~/.mame/mame.ini
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: MAME_BASE_DIR/hash
+data_dir: MAME_BASE_DIR_HASH
 soft_lists:
 working_dir: system-working-dir
 extensions: z64
