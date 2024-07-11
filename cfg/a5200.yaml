@@ -6,7 +6,7 @@ exec: mame
 extension: zip
 extensions: zip
 format: mamesl
-ini: ' ~/.mame/mame.ini'
+ini: ~/.mame/mame.ini
 mister_core: ATARI5200
 mode: file
 name: a5200
