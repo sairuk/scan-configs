@@ -1,15 +1,15 @@
-name: wiiu
-display_name: Nintendo WiiU
-format: generic
-mode: file-parent
-exec: /usr/local/bin/cemu
-ini:
-rom_dir: /var/lib/freestation/games/SYSTEM_NAME
-art_dir: 
-data_dir:
-soft_lists:
-working_dir: system-working-dir
-extensions: wud
-mister_core: NONE
-extension: wud
+art_dir: ''
 cmd: GAME_EXEC -g "ROM_PATH"
+data_dir: ''
+display_name: Nintendo Wii-U
+exec: /usr/local/bin/cemu
+extension: wud
+extensions: wud
+format: generic
+ini: ''
+mister_core: NONE
+mode: file-parent
+name: wiiu
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

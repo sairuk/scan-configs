@@ -1,16 +1,15 @@
----
-name: MAME
-display_name: MAME
-format: mame
-mode: file
-exec: mame
-ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: system-data-dir
-soft_lists:
-working_dir: system-working-dir
-extensions: zip
-mister_core: mame
-extension: zip
 cmd: GAME_EXEC ROM_NAME
+data_dir: system-data-dir
+display_name: MAME
+exec: mame
+extension: zip
+extensions: zip
+format: mame
+ini: ~/.mame/mame.ini
+mister_core: mame
+mode: file
+name: mame
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

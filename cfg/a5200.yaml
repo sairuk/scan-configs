@@ -1,15 +1,15 @@
-name: a5200
-display_name: Atari 5200
-format: mamesl
-mode: file
-exec: mame
-ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: MAME_BASE_DIR_HASH
-soft_lists:
-working_dir: system-working-dir
-extensions: zip
-mister_core: ATARI5200
-extension: zip
 cmd: GAME_EXEC SYSTEM_NAME -cart ROM_BASENAME
+data_dir: MAME_BASE_DIR_HASH
+display_name: Atari 5200
+exec: mame
+extension: zip
+extensions: zip
+format: mamesl
+ini: ' ~/.mame/mame.ini'
+mister_core: ATARI5200
+mode: file
+name: a5200
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

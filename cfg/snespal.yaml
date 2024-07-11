@@ -1,15 +1,15 @@
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-cmd: GAME_EXEC SYSTEM_NAME -cdrom ROM_BASENAME
+cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
 data_dir: MAME_BASE_DIR_HASH
-display_name: SEGA Saturn
+display_name: Super Nintendo (PAL)
 exec: mame
 extension: zip
 extensions: zip
 format: mamesl
 ini: ~/.mame/mame.ini
-mister_core: Saturn
-mode: dir
-name: saturn
-rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME
+mister_core: SNES
+mode: file
+name: snespal
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 soft_lists: ''
 working_dir: system-working-dir

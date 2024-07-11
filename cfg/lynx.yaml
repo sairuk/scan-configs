@@ -1,15 +1,15 @@
-name: lynx
-display_name: Atari Lynx
-format: mamesl
-mode: file
-exec: mame
-ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: MAME_BASE_DIR_HASH
-soft_lists:
-working_dir: system-working-dir
-extensions: zip
-mister_core: AtariLynx
-extension: zip
 cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
+data_dir: MAME_BASE_DIR_HASH
+display_name: Atari Lynx
+exec: mame
+extension: zip
+extensions: zip
+format: mamesl
+ini: ' ~/.mame/mame.ini'
+mister_core: AtariLynx
+mode: file
+name: lynx
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

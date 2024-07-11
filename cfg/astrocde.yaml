@@ -1,15 +1,15 @@
-name: astrocde
-display_name: Astrocade
-format: mamesl
-mode: file
-exec: mame
-ini: ~/.mame/mame.ini
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: MAME_BASE_DIR_HASH
-soft_lists:
-working_dir: system-working-dir
-extensions: zip
-mister_core: Astrocade
-extension: zip
 cmd: GAME_EXEC SYSTEM_NAME -cart ROM_BASENAME
+data_dir: MAME_BASE_DIR_HASH
+display_name: Astrocade
+exec: mame
+extension: zip
+extensions: zip
+format: mamesl
+ini: ' ~/.mame/mame.ini'
+mister_core: Astrocade
+mode: file
+name: astrocde
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

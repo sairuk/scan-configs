@@ -1,15 +1,15 @@
 art_dir: ''
-cmd: GAME_EXEC -full-screen -dvd_path "ROM_PATH"
+cmd: GAME_EXEC -fullscreen -res=1280,720 -legacy3d "ROM_PATH"
 data_dir: ''
-display_name: Microsoft XBOX
-exec: /usr/bin/flatpak run app.xemu.xemu
-extension: iso
-extensions: iso
+display_name: SEGA Model 3
+exec: ./supermodel.sh
+extension: zip
+extensions: zip
 format: generic
 ini: ''
 mister_core: NONE
 mode: file
-name: xbox
+name: model3
 rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 soft_lists: ''
 working_dir: system-working-dir

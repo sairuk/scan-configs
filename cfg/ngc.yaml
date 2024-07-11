@@ -1,15 +1,15 @@
-name: ngc
-display_name: Nintendo GameCube
-format: generic
-mode: file-parent
-exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
-ini:
-rom_dir: /var/lib/freestation/games/SYSTEM_NAME
-art_dir: 
-data_dir:
-soft_lists:
-working_dir: system-working-dir
-extensions: iso
-mister_core: NONE
-extension: iso
+art_dir: ''
 cmd: GAME_EXEC -b -e "ROM_PATH"
+data_dir: ''
+display_name: Nintendo GameCube
+exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
+extension: iso
+extensions: iso
+format: generic
+ini: /var/lib/freestation/games/SYSTEM_NAME
+mister_core: NONE
+mode: file-parent
+name: ngc
+rom_dir: ''
+soft_lists: ''
+working_dir: system-working-dir

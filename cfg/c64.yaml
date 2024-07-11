@@ -1,0 +1,15 @@
+art_dir: ''
+cmd: GAME_EXEC c64p -joy1 joy -joy2 joy ROM_BASENAME
+data_dir: ''
+display_name: Commodore 64
+exec: ''
+extension: zip
+extensions: zip
+format: generic
+ini: ''
+mister_core: C64
+mode: file
+name: c64
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

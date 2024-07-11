@@ -1,15 +1,15 @@
-name: pico8
-display_name: PICO-8
-format: pico8
-mode: file
-exec: /usr/local/bin/pico8-launcher
-ini: 
-rom_dir: /mnt/roms/Fantasy Console/PICO-8 Carts
-art_dir: /mnt/roms/Fantasy Console/PICO-8 Screenshots 
-data_dir: /mnt/roms/Fantasy Console/PICO-8 Metadata
-soft_lists:
-working_dir: system-working-dir
-extensions: zip
-mister_core: NONE
-extension: zip
+art_dir: '/mnt/roms/Fantasy Console/PICO-8 Screenshots '
 cmd: GAME_EXEC "ROM_PATH"
+data_dir: /mnt/roms/Fantasy Console/PICO-8 Metadata
+display_name: PICO-8
+exec: /usr/local/bin/pico8-launcher
+extension: zip
+extensions: zip
+format: pico8
+ini: ''
+mister_core: NONE
+mode: file
+name: pico8
+rom_dir: /mnt/roms/Fantasy Console/PICO-8 Carts
+soft_lists: ''
+working_dir: system-working-dir

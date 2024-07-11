@@ -1,16 +1,15 @@
----
-name: ps3
-display_name: Sony PlayStation 3
-format: generic
-mode: file
-exec: /usr/local/bin/rpcs3_loopmount
-ini: 
-rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-data_dir: system-data-dir
-soft_lists:
-working_dir: system-working-dir
-extensions: iso
-extension: iso
-mister_core: NONE
 cmd: GAME_EXEC "ROM_PATH"
+data_dir: ''
+display_name: Sony PlayStation 3"
+exec: /usr/local/bin/rpcs3_loopmount
+extension: iso
+extensions: iso
+format: generic
+ini: ''
+mister_core: NONE
+mode: file
+name: ps3
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
+soft_lists: ''
+working_dir: system-working-dir

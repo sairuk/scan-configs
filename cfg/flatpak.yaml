@@ -1,0 +1,15 @@
+art_dir: ''
+cmd: exo-open "ROM_PATH"
+data_dir: ''
+display_name: Flatpaks
+exec: ''
+extension: desktop
+extensions: desktop
+format: generic
+ini: ''
+mister_core: NONE
+mode: file
+name: flatpak
+rom_dir: /var/lib/flatpak/exports/share/applications/
+soft_lists: ''
+working_dir: system-working-dir
