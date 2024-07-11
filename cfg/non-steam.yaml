@@ -1,15 +1,15 @@
 art_dir: ''
-cmd: ''
+cmd: GAME_EXEC "ROM_PATH"
 data_dir: ''
 display_name: Non-Steam Shortcuts
-exec: ''
-extension: ''
-extensions: ''
-format: ''
+exec: 'exo-open '
+extension: desktop
+extensions: desktop
+format: generic
 ini: ''
 mister_core: NONE
-mode: ''
+mode: file
 name: non-steam
-rom_dir: ''
+rom_dir: /var/lib/freestation/dekstop
 soft_lists: ''
 working_dir: ''

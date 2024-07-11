@@ -6,7 +6,7 @@ exec: mame
 extension: zip
 extensions: zip
 format: mamesl
-ini: ~/.mame/mame.in
+ini: ~/.mame/mame.ini
 mister_core: NONE
 mode: file
 name: wsc
