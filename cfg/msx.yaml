@@ -5,7 +5,7 @@ display_name: Microsoft MSX1
 exec: mame
 extension: zip
 extensions: zip
-format: mame
+format: mamesl
 ini: ~/.mame/mame.ini
 mister_core: MSX1
 mode: file
