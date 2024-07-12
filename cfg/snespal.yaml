@@ -1,5 +1,5 @@
-art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-cmd: GAME_EXEC SYSTEM_NAME ROM_BASENAME
+art_dir: MAME_BASE_DIR_SOFT_ART/snes
+cmd: GAME_EXEC snespal ROM_BASENAME
 data_dir: MAME_BASE_DIR_HASH
 display_name: Super Nintendo (PAL)
 exec: mame
@@ -10,6 +10,6 @@ ini: ~/.mame/mame.ini
 mister_core: SNES
 mode: file
 name: snespal
-rom_dir: MAME_BASE_DIR_SOFT_ROMS/SYSTEM_NAME
+rom_dir: MAME_BASE_DIR_SOFT_ROMS/snes
 soft_lists: ''
 working_dir: system-working-dir

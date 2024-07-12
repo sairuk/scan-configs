@@ -5,7 +5,7 @@ display_name: Nintendo 64
 exec: /usr/bin/flatpak run io.github.simple64.simple64
 extension: z64
 extensions: z64
-format: mamesl
+format: generic
 ini: ~/.mame/mame.ini
 mister_core: N64
 mode: file

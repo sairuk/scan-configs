@@ -6,10 +6,10 @@ exec: /usr/bin/flatpak run org.DolphinEmu.dolphin-emu
 extension: iso
 extensions: iso
 format: generic
-ini: /var/lib/freestation/games/SYSTEM_NAME
+ini: ''
 mister_core: NONE
 mode: file-parent
 name: ngc
-rom_dir: ''
+rom_dir: /var/lib/freestation/games/SYSTEM_NAME
 soft_lists: ''
 working_dir: system-working-dir

@@ -1,15 +1,15 @@
 art_dir: MAME_BASE_DIR_SOFT_ART/SYSTEM_NAME
-cmd: GAME_EXEC "ROM_PATH"
+cmd: GAME_EXEC -batch -fullscreen -- "ROM_PATH"
 data_dir: MAME_BASE_DIR_HASH
-display_name: SEGA Dreamcast
-exec: /usr/bin/flatpak run org.flycast.Flycast
+display_name: Sony PlayStation
+exec: /usr/bin/flatpak run org.duckstation.DuckStation
 extension: chd
 extensions: chd
 format: mamesl
 ini: ~/.mame/mame.ini
 mister_core: NONE
 mode: file-parent
-name: dc
+name: psx
 rom_dir: MAME_BASE_DIR_SOFT_DISK/SYSTEM_NAME
 soft_lists: ''
 working_dir: system-working-dir
